@@ -3,7 +3,7 @@ import sys
 
 
 def run_app(data_file_name):
-    strategies = {1: wald_criterion,
+    available_strategies = {1: wald_criterion,
                   2: optimism_criterion,
                   3: pessimism_criterion,
                   4: hurwitz_criterion,
@@ -16,9 +16,9 @@ def run_app(data_file_name):
                         '    3. pessimism criterion\n'
                         '    4. Hurwitz criterion\n'
                         '    5. Savage criterion\n'
-                        'Choose the number of strategy: ')
+                        'Choose the number of option: ')
     try:
-        strategies[int(menu_option)](data)
+        available_strategies[int(menu_option)](data)
     except KeyError and ValueError:
         print('Invalid menu value provided. Exiting.')
 
