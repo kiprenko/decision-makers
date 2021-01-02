@@ -16,7 +16,8 @@ need: [decision-maker-1.py](decision-maker-1.py) or [decision-maker-2.py](decisi
 
 The example is shown for the first [decision-maker-1.py](decision-maker-1.py), but both scripts work in the same
 way.<br/>
-Use `python decision-maker-1.py 'your-data-file.csv'` to run the script.<br/>
+Use the next command to run the script.<br/>
+ `python decision-maker-1.py 'your-data-file.csv'`
 When the application is running, you will see such menu:
 
 `Available strategies:`<br/>
@@ -28,9 +29,8 @@ When the application is running, you will see such menu:
 
 Choose the option you like and the script will find a strategy according to the criterion you chose.
 
-## Author :panda_face:
+## Author 🦝
 
 - Name: Evgeniy Kiprenko
 - Email: zhenyakiprenko@gmail.com
-- [LinkedIn](https://www.linkedin.com/in/evgeniy-kiprenko/)
-- [Telegram](https://t.me/Jus7XV)
+- [LinkedIn](https://www.linkedin.com/in/kiprenko/)
