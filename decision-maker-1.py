@@ -80,11 +80,11 @@ def savage_criterion(data):
 
 
 def get_mins(data):
-    return {s_name: min(env_values) for s_name, env_values in data.items()}
+    return {s_name: min({int(item) for item in env_values}) for s_name, env_values in data.items()}
 
 
 def get_maxs(data):
-    return {s_name: max(env_values) for s_name, env_values in data.items()}
+    return {s_name: max({int(item) for item in env_values}) for s_name, env_values in data.items()}
 
 
 if __name__ == '__main__':
